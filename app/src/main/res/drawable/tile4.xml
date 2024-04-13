@@ -9,8 +9,8 @@ https://developer.android.com/reference/android/graphics/drawable/LayerDrawable 
             <!--    <size-->
             <!--        android:width="500dp"-->
             <!--        android:height="500dp"/>-->
-            <solid android:color="#AC9C92"/>
-            <corners android:radius="25dp" > </corners>
+            <solid android:color="#EDE0C8"/>
+            <corners android:radius="10dp" > </corners>
 
 
             <!--    android:src="@drawable/num2.png" -->
@@ -20,10 +20,10 @@ https://developer.android.com/reference/android/graphics/drawable/LayerDrawable 
     <item
 
         android:drawable="@drawable/num4"
-        android:bottom="100dp"
-        android:top="100dp"
-        android:left="100dp"
-        android:right="100dp"
+        android:bottom="175dp"
+        android:top="175dp"
+        android:left="120dp"
+        android:right="120dp"
 
         />
 </layer-list>
