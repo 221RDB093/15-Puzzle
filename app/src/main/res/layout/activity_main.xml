@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
@@ -61,201 +62,293 @@
     <!--        app:layout_constraintTop_toTopOf="parent"-->
     <!--        app:layout_constraintVertical_bias="0.447" />-->
 
-    <ImageView
+<!--    <ImageView-->
+<!--        android:id="@+id/tile11"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:background="@drawable/empty_tile"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.193"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.342" />-->
+
+
+    <!--    <ImageView-->
+<!--            android:id="@+id/tile12"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:background="@drawable/empty_tile"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.396"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.342" />-->
+
+    <TextView
         android:id="@+id/tile11"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.193"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342" />
+        app:layout_constraintVertical_bias="0.342">
+    </TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile12"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342" />
+        app:layout_constraintVertical_bias="0.342">
 
-    <ImageView
+    </TextView>
+
+    <TextView
         android:id="@+id/tile13"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.600"
+        app:layout_constraintHorizontal_bias="0.612"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342" />
+        app:layout_constraintVertical_bias="0.342">
 
-    <ImageView
+    </TextView>
+
+    <TextView
         android:id="@+id/tile14"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342" />
+        app:layout_constraintVertical_bias="0.342">
 
+    </TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile21"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.193"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.450" />
+        app:layout_constraintVertical_bias="0.454">
+    </TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile22"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="6"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.450" />
+        app:layout_constraintVertical_bias="0.454"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile23"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="7"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.600"
+        app:layout_constraintHorizontal_bias="0.612"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.450" />
+        app:layout_constraintVertical_bias="0.454"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile24"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="8"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.450" />
+        app:layout_constraintVertical_bias="0.454"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile31"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="9"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.193"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="0.558"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile32"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="10"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="0.557"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile33"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="11"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.600"
+        app:layout_constraintHorizontal_bias="0.612"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="0.557"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile34"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="12"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="0.557"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile41"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="13"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.193"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666" />
+        app:layout_constraintVertical_bias="0.664"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile42"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="14"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666" />
+        app:layout_constraintVertical_bias="0.664"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile43"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text="15"
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.600"
+        app:layout_constraintHorizontal_bias="0.612"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666" />
+        app:layout_constraintVertical_bias="0.664"></TextView>
 
-    <ImageView
+    <TextView
         android:id="@+id/tile44"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:background="@drawable/empty_tile"
+        android:gravity="center"
+        android:text=""
+        android:textSize="40dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666" />
-
-
-
+        app:layout_constraintVertical_bias="0.664"></TextView>
 
     <Button
         android:id="@+id/buttonUp"
@@ -304,13 +397,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.872" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
