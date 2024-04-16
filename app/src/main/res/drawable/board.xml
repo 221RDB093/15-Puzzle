@@ -11,197 +11,197 @@
         </shape>
     </item>
 
-    <!-- tile 1 (row 1; col 1) -->
-    <item
-        android:bottom="228dp"
-        android:top="12dp"
-        android:left="12dp"
-        android:right="228dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 1 (row 1; col 1) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="228dp"-->
+<!--        android:top="12dp"-->
+<!--        android:left="12dp"-->
+<!--        android:right="228dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 2 (row 1; col 2) -->
-    <item
-        android:bottom="228dp"
-        android:top="12dp"
-        android:left="84dp"
-        android:right="156dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 2 (row 1; col 2) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="228dp"-->
+<!--        android:top="12dp"-->
+<!--        android:left="84dp"-->
+<!--        android:right="156dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 3 (row 1; col 3) -->
-    <item
-        android:bottom="228dp"
-        android:top="12dp"
-        android:left="156dp"
-        android:right="84dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 3 (row 1; col 3) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="228dp"-->
+<!--        android:top="12dp"-->
+<!--        android:left="156dp"-->
+<!--        android:right="84dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 4 (row 1; col 4) -->
-    <item
-        android:bottom="228dp"
-        android:top="12dp"
-        android:left="228dp"
-        android:right="12dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 4 (row 1; col 4) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="228dp"-->
+<!--        android:top="12dp"-->
+<!--        android:left="228dp"-->
+<!--        android:right="12dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 5 (row 2; col 1) -->
-    <item
-        android:bottom="156dp"
-        android:top="84dp"
-        android:left="12dp"
-        android:right="228dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 5 (row 2; col 1) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="156dp"-->
+<!--        android:top="84dp"-->
+<!--        android:left="12dp"-->
+<!--        android:right="228dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 6 (row 2; col 2) -->
-    <item
-        android:bottom="156dp"
-        android:top="84dp"
-        android:left="84dp"
-        android:right="156dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 6 (row 2; col 2) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="156dp"-->
+<!--        android:top="84dp"-->
+<!--        android:left="84dp"-->
+<!--        android:right="156dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 7 (row 2; col 3) -->
-    <item
-        android:bottom="156dp"
-        android:top="84dp"
-        android:left="156dp"
-        android:right="84dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 7 (row 2; col 3) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="156dp"-->
+<!--        android:top="84dp"-->
+<!--        android:left="156dp"-->
+<!--        android:right="84dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 8 (row 2; col 4) -->
-    <item
-        android:bottom="156dp"
-        android:top="84dp"
-        android:left="228dp"
-        android:right="12dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 8 (row 2; col 4) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="156dp"-->
+<!--        android:top="84dp"-->
+<!--        android:left="228dp"-->
+<!--        android:right="12dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 9 (row 3; col 1) -->
-    <item
-        android:bottom="84dp"
-        android:top="156dp"
-        android:left="12dp"
-        android:right="228dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 9 (row 3; col 1) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="84dp"-->
+<!--        android:top="156dp"-->
+<!--        android:left="12dp"-->
+<!--        android:right="228dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 10 (row 3; col 2) -->
-    <item
-        android:bottom="84dp"
-        android:top="156dp"
-        android:left="84dp"
-        android:right="156dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 10 (row 3; col 2) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="84dp"-->
+<!--        android:top="156dp"-->
+<!--        android:left="84dp"-->
+<!--        android:right="156dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 11 (row 3; col 3) -->
-    <item
-        android:bottom="84dp"
-        android:top="156dp"
-        android:left="156dp"
-        android:right="84dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 11 (row 3; col 3) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="84dp"-->
+<!--        android:top="156dp"-->
+<!--        android:left="156dp"-->
+<!--        android:right="84dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 12 (row 2; col 4) -->
-    <item
-        android:bottom="84dp"
-        android:top="156dp"
-        android:left="228dp"
-        android:right="12dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 12 (row 2; col 4) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="84dp"-->
+<!--        android:top="156dp"-->
+<!--        android:left="228dp"-->
+<!--        android:right="12dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 13 (row 4; col 1) -->
-    <item
-        android:bottom="12dp"
-        android:top="228dp"
-        android:left="12dp"
-        android:right="228dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 13 (row 4; col 1) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="12dp"-->
+<!--        android:top="228dp"-->
+<!--        android:left="12dp"-->
+<!--        android:right="228dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 14 (row 4; col 2) -->
-    <item
-        android:bottom="12dp"
-        android:top="228dp"
-        android:left="84dp"
-        android:right="156dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 14 (row 4; col 2) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="12dp"-->
+<!--        android:top="228dp"-->
+<!--        android:left="84dp"-->
+<!--        android:right="156dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 15 (row 4; col 3) -->
-    <item
-        android:bottom="12dp"
-        android:top="228dp"
-        android:left="156dp"
-        android:right="84dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 15 (row 4; col 3) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="12dp"-->
+<!--        android:top="228dp"-->
+<!--        android:left="156dp"-->
+<!--        android:right="84dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
-    <!-- tile 16 (row 4; col 4) -->
-    <item
-        android:bottom="12dp"
-        android:top="228dp"
-        android:left="228dp"
-        android:right="12dp">
-        <shape android:shape="rectangle">
-            <solid android:color="#DDC6B4"/>
-            <corners android:radius="5dp" > </corners>
-        </shape>
-    </item>
+<!--    &lt;!&ndash; tile 16 (row 4; col 4) &ndash;&gt;-->
+<!--    <item-->
+<!--        android:bottom="12dp"-->
+<!--        android:top="228dp"-->
+<!--        android:left="228dp"-->
+<!--        android:right="12dp">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#DDC6B4"/>-->
+<!--            <corners android:radius="5dp" > </corners>-->
+<!--        </shape>-->
+<!--    </item>-->
 
 
 </layer-list>
