@@ -96,9 +96,6 @@ class MainActivity : AppCompatActivity() {
 
         val down = findViewById<Button>(R.id.buttonDown)
         down.setOnClickListener {
-            /// Toast.makeText(this, "Shift Down", Toast.LENGTH_SHORT).show()
-
-            // TODO: create shift down operation
             tilesMap2.forEach { (key, value) ->
                 if (value == "") {
                     val textView = findViewById<TextView>(key)
@@ -124,12 +121,7 @@ class MainActivity : AppCompatActivity() {
         }
         right.setOnClickListener {
             Toast.makeText(this, "Shift Right", Toast.LENGTH_SHORT).show()
-//            val seventhEntry = tilesMap.entries.elementAt(6)
-//            println(seventhEntry.key)
-//            println(tilesMap.size)
-            println(tiles[0])
-            println(tiles[1])
-            println(tiles[2])
+
 
 
         }
@@ -137,28 +129,28 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Shift Left", Toast.LENGTH_SHORT).show()
         }
         up.setOnClickListener {
-            // Toast.makeText(this, "Shift Up", Toast.LENGTH_SHORT).show()
-
+            var count = 0
             tilesMap2.forEach { (key, value) ->
-                if (value == "") {
-                    val textView = findViewById<TextView>(key)
-                    textView.text = value
-                    textView.setBackgroundColor(Color.parseColor("#DDC6B4"))
+                if (count > 3) {
                     val currentIndex = tilesMap2.entries.indexOfFirst { it.key == key }
-                    println(currentIndex)
-                    val newKey = tilesMap2.keys.elementAt(currentIndex + 4)
-                    // println(tilesMap2[newKey])
-                    val upperTView = findViewById<TextView>(newKey)
-                    upperTView.setBackgroundColor(Color.parseColor("#95877C"))
-                    findViewById<TextView>(key).setText(tilesMap2[newKey])
-                    val upperValue = tilesMap2.values.elementAt(currentIndex + 4)
-                    // println("aaa: $upperValue")
-                    tilesMap2[key] = upperValue
-                    upperTView.text = ""
-                    tilesMap2[newKey] = ""
-                }
+                    val emptyKey = tilesMap2.keys.elementAt(currentIndex - 4)
+                    if (tilesMap2[emptyKey] == "") {
+                        println(value)
+                        tilesMap2[emptyKey] = value
+                        tilesMap2[key] = ""
 
+                        val textView = findViewById<TextView>(key)
+                        textView.setText("")
+                        textView.setBackgroundColor(Color.parseColor("#95877C"))
+
+                        val textView2 = findViewById<TextView>(emptyKey)
+                        textView2.setText(value)
+                        textView2.setBackgroundColor(Color.parseColor("#DDC6B4"))
+                    }
+                }
+                count++
             }
+
         }
 
 
