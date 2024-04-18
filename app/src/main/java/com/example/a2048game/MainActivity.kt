@@ -1,9 +1,11 @@
 package com.example.a2048game
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -39,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
         // Front-end daļas pielīdzināšana iepriekš sajauktajai kartei
         tilesMap.forEach { (key, value) ->
-            println("$key -> $value")
+
             val textView = findViewById<TextView>(key)
             findViewById<TextView>(key).setText(value)
             if (value == "") {
@@ -58,7 +60,9 @@ class MainActivity : AppCompatActivity() {
         val left = findViewById<Button>(R.id.buttonLeft)
         val up = findViewById<Button>(R.id.buttonUp)
 
-        // Tālāk: visu četru pogu funkcijas
+        val finish = findViewById<Button>(R.id.buttonFinish)
+
+        // Tālāk: visu piecu pogu funkcijas
 
         down.setOnClickListener {
             var count = 0
@@ -146,7 +150,7 @@ class MainActivity : AppCompatActivity() {
             var count = 0 // tilesMapReversed.size
             tilesMapReversed.forEach { (key, value) ->
 
-                    if (tilesMapReversed[key] == "") {
+                    if (tilesMapReversed[key] == "" && count != 0 && count != 4 && count != 8 && count != 12) {
 
                         val currentIndex = tilesMapReversed.entries.indexOfFirst { it.key == key }
                         val keyToRight = tilesMapReversed.keys.elementAt(currentIndex - 1)
@@ -174,27 +178,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         up.setOnClickListener {
-//            var count = 0
-//            tilesMap.forEach { (key, value) ->
-//                if (count > 3) {
-//                    val currentIndex = tilesMap.entries.indexOfFirst { it.key == key }
-//                    val emptyKey = tilesMap.keys.elementAt(currentIndex - 4)
-//                    if (tilesMap[emptyKey] == "") {
-//                        println(value)
-//                        tilesMap[emptyKey] = value
-//                        tilesMap[key] = ""
-//
-//                        val textView = findViewById<TextView>(key)
-//                        textView.setText("")
-//                        textView.setBackgroundColor(Color.parseColor("#6A22E9"))
-//
-//                        val textView2 = findViewById<TextView>(emptyKey)
-//                        textView2.setText(value)
-//                        textView2.setBackgroundColor(Color.parseColor("#FFE705"))
-//                    }
-//                }
-//                count++
-//            }
 
             val tilesMapReversed: MutableMap<Int, String> = mutableMapOf()
             tilesMap.entries.reversed().forEach { (key, value) ->
@@ -204,7 +187,7 @@ class MainActivity : AppCompatActivity() {
             var count = 0 // tilesMapReversed.size
             tilesMapReversed.forEach { (key, value) ->
 
-                if (tilesMapReversed[key] == "") {
+                if (tilesMapReversed[key] == "" && count > 3) {
 
                     val currentIndex = tilesMapReversed.entries.indexOfFirst { it.key == key }
                     val lowerKey = tilesMapReversed.keys.elementAt(currentIndex - 4)
@@ -230,6 +213,40 @@ class MainActivity : AppCompatActivity() {
                 tilesMap[key] = value
             }
 
+        }
+
+
+        // Pārbauda, vai pēc "finish" pogas nospiešanas spēle ir tai vajadzīgajā beigu stāvoklī.
+        finish.setOnClickListener {
+
+            // Lai varētu salīdzināt flīžu vērtības, tās vispirms jāparsē uz Int datu tipu un
+            // jāievieto masīvā.
+            val valuesInt = IntArray(16)
+            var i = 0
+            tilesMap.forEach { (key, value) ->
+                if (value == "") {
+                    valuesInt[i] = 0
+                    i++
+                } else {
+                    valuesInt[i] = value.toInt()
+                    i++
+                }
+            }
+
+            // Atsauce: https://kotlinlang.org/docs/control-flow.html#for-loops
+            for (i in 0..15) {
+
+                if (i < 14 && valuesInt[i] > valuesInt[i+1]) {
+                    Toast.makeText(this, "Incorrect order!", Toast.LENGTH_SHORT).show()
+                    break
+                } else if (i == 15 && valuesInt[i] == 0 ) {
+                    // Pabeigtas spēles stāvoklis. No šejienes tiek inicializēta
+                    // nākamā aktivitāte "FinishedActivity.kt"
+                    val intent = Intent(this,FinishedActivity::class.java)
+                    startActivity(intent)
+                    break
+                }
+            }
         }
 
 
