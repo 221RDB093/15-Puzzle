@@ -147,7 +147,7 @@ class MainActivity : AppCompatActivity() {
                 tilesMapReversed[key] = value
             }
 
-            var count = 0 // tilesMapReversed.size
+            var count = 0
             tilesMapReversed.forEach { (key, value) ->
 
                     if (tilesMapReversed[key] == "" && count != 0 && count != 4 && count != 8 && count != 12) {
@@ -184,7 +184,7 @@ class MainActivity : AppCompatActivity() {
                 tilesMapReversed[key] = value
             }
 
-            var count = 0 // tilesMapReversed.size
+            var count = 0
             tilesMapReversed.forEach { (key, value) ->
 
                 if (tilesMapReversed[key] == "" && count > 3) {

@@ -7,4 +7,8 @@
             android:width="60dp"
             android:height="60dp"/>
         <corners android:radius="5dp" > </corners>
+<!--
+Pievērsiet uzmanību, ka flīzes stūri šeit ir noapaļoti tieši tāpat
+  kā tas ir 'board.xml' failā. Palaižot programmu redzēsiet, ka šī komanda neizpildās.
+  -->
     </shape>
