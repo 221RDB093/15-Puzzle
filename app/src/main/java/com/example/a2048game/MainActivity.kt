@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
         /* Šī karte satur Int tipa atslēgas, kuras ir faila 'activity_main.xml' TextView identifikatori.
         Katrs no tiem satur String tipa vērtību, kura norāda uz flīzes uzrakstīto skaitli.
         Sākumā flīzes sakārtotas pareizajā jeb uzvaru neesošā secībā un pēc tam tās tiek sajauktas.
@@ -54,7 +56,8 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        // Pogu sasaiste ar front-end daļu
+        // Pogu sasaiste ar front-end daļu. Jāpiebilst, ka sākumā gribēju implementēt
+        // GestureDetector, lai spēli varētu spēlēt bes pogām, taču diedžēl tas neizdevās.
         val down = findViewById<Button>(R.id.buttonDown)
         val right = findViewById<Button>(R.id.buttonRight)
         val left = findViewById<Button>(R.id.buttonLeft)
